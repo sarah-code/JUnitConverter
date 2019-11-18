@@ -94,8 +94,10 @@ public class testocalculator extends JFrame implements ActionListener
 		
 		testocalculator tc = new testocalculator();
 		JFrame frame = new JFrame("Convert Units");
-		oUnitText = 
-		frame.setBounds( 100,100,1000,800);
+		oUnitText = JTextField("Original Unit");
+		
+		frame.add(oUnitText);
+		frame.setBounds(1000,800);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);;
 		frame.setVisible(true);
 		
